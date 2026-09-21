@@ -3,9 +3,13 @@
 ## PROJECT INFORMATION
 
 Project Code: WST21-PM-2026-SF
-Student Name:
-Course & Year:
+
+Student Name: KELSIE APROVECHADO
+
+Course & Year: BSIT 2 SEC 5
+
 Database Used:
+
 
 ## Features:
 - 
