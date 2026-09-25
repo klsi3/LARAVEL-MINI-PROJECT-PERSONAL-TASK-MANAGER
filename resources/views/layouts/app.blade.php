@@ -33,7 +33,6 @@
         a { color: inherit; }
         :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 
-        /* Navigation */
         .nav { background: var(--ink); color: #fff; }
         .nav-inner { max-width: 760px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; }
         .brand { font-weight: 800; font-size: 1.05rem; text-decoration: none; letter-spacing: -0.01em; }
@@ -42,13 +41,11 @@
 
         .container { max-width: 760px; margin: 0 auto; padding: 28px 20px 60px; }
 
-        /* Page head */
         .page-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
         h1 { margin: 0; font-size: 1.9rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
         .sub { margin: 4px 0 0; color: var(--muted); font-size: .95rem; }
         .sub .warn { color: var(--danger); font-weight: 600; }
 
-        /* Buttons */
         .btn { display: inline-block; border: 1px solid transparent; border-radius: 8px; padding: 9px 16px; font: inherit; font-weight: 600; font-size: .92rem; text-decoration: none; cursor: pointer; }
         .btn-primary { background: var(--accent); color: #fff; }
         .btn-primary:hover { background: #173FB0; }
@@ -58,16 +55,13 @@
         .btn-danger { background: transparent; color: var(--danger); border-color: transparent; }
         .btn-danger:hover { background: var(--danger-soft); }
 
-        /* Flash message */
         .flash { background: var(--done-soft); color: var(--done); border-radius: 8px; padding: 10px 14px; margin-bottom: 16px; font-weight: 600; font-size: .92rem; }
 
-        /* Filter tabs */
         .tabs { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
         .tabs a { text-decoration: none; padding: 6px 12px; border-radius: 999px; font-size: .88rem; font-weight: 600; color: var(--muted); border: 1px solid var(--line); background: transparent; }
         .tabs a span { margin-left: 4px; font-weight: 500; }
         .tabs a.active { background: var(--ink); border-color: var(--ink); color: #fff; }
 
-        /* Task list */
         .list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
         .task { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: start; }
         .task.is-done .task-name { text-decoration: line-through; color: var(--muted); }
@@ -82,19 +76,16 @@
         .actions { display: flex; gap: 2px; align-items: center; }
         .actions form { margin: 0; }
 
-        /* Status toggle: the one distinctive control */
         .check { width: 28px; height: 28px; border-radius: 50%; border: 2px solid #9AA6B8; background: transparent; cursor: pointer; padding: 0; display: grid; place-items: center; color: transparent; margin-top: 1px; }
         .check:hover { border-color: var(--done); color: var(--done); }
         .is-done .check { background: var(--done); border-color: var(--done); color: #fff; }
         .is-done .check:hover { background: #0B6947; border-color: #0B6947; }
         .check svg { width: 15px; height: 15px; }
 
-        /* Empty state */
         .empty { background: var(--surface); border: 1px dashed #B7C2D2; border-radius: 12px; padding: 36px 20px; text-align: center; color: var(--muted); }
         .empty strong { display: block; color: var(--ink); font-size: 1.05rem; margin-bottom: 4px; }
         .empty .btn { margin-top: 14px; }
 
-        /* Forms */
         .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
         .field { margin-bottom: 18px; }
         label { display: block; font-weight: 600; font-size: .9rem; margin-bottom: 6px; }

@@ -7,7 +7,10 @@
         <div>
             <h1>Your tasks</h1>
             <p class="sub">
-                {{ $stats['pending'] }} pending@if ($stats['overdue']), <span class="warn">{{ $stats['overdue'] }} overdue</span>@endif
+                {{ $stats['pending'] }} pending
+                @if ($stats['overdue'])
+                    , <span class="warn">{{ $stats['overdue'] }} overdue</span>
+                @endif
             </p>
         </div>
         <a class="btn btn-primary" href="{{ route('tasks.create') }}">Add task</a>
