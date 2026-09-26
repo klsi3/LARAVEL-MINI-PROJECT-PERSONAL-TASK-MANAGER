@@ -2,7 +2,7 @@
 
 Project Code: WST21-PM-2026-SF
 Student Name: Kelsie Approvechado
-Course & Year: BSIT-2 Section-3
+Course & Year: BSIT-2 Section-5
 Database Used: SQLite
 
 ## Features
